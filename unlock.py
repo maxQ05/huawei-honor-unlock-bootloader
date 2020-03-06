@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
@@ -15,7 +14,7 @@ import math
 
 def tryUnlockBootloader(checksum):
 
-    unlock      = False
+    unlock      = True
     algoOEMcode = 1000000000000000 #base
     
     while(unlock == False):
